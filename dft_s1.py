@@ -42,7 +42,6 @@ def update_plot(num):
 update_plot
 anime = animation.FuncAnimation(fig, update_plot, frames = frames_amount, interval = 200, 
                                 repeat = True, blit = False)
-
 plt.show()
 
 
